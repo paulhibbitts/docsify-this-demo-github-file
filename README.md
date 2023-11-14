@@ -33,6 +33,14 @@ Some body text
 ## Mermaid
 
 ```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+```mermaid
 gantt
   title A Gantt Diagram
 
